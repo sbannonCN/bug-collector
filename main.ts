@@ -126,6 +126,34 @@ scene.setBackgroundImage(img`
     ddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbddddfbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdddddfbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdddddfbbddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbddd
     dddddddddddddddddddddddddddddddddddddfbbdddddddddddddddddddddddddddddddddddddddfbbdddddddddddddddddddddddddddddddddddddddfbbdddddddddddddddddddddddddddddddddddd
     `)
+game.splash("Bug Collector")
+game.setDialogFrame(img`
+    .cccccccccccccccccccccc.
+    ccd666666666666666666dcc
+    cd6dbbbbbbbbbbbbbbbbd6dc
+    c6dbbbbbbbbbbbbbbbbbbd6c
+    c6bd1111111111111111db6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6b111111111111111111b6c
+    c6bd1111111111111111db6c
+    cd6bbbbbbbbbbbbbbbbbb6dc
+    ccd666666666666666666dcc
+    .cccccccccccccccccccccc.
+    ........................
+    `)
+game.showLongText("Help computer scientist Grace Hopper collect as many bugs as possible before time runs out!", DialogLayout.Center)
 let mySprite = sprites.create(img`
     . . . . f b b b b b f . . . 
     . . . f c 1 1 1 1 1 b f . . 

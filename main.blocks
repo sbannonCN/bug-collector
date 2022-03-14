@@ -119,7 +119,32 @@ dddddddddddddddddddddddddddddddddddddfbbdddddddddddddddddddddddddddddddddddddddf
 ddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbddddfbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdddddfbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdddddfbbddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbddd
 ddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbddddfbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdddddfbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdddddfbbddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbddd
 dddddddddddddddddddddddddddddddddddddfbbdddddddddddddddddddddddddddddddddddddddfbbdddddddddddddddddddddddddddddddddddddddfbbdddddddddddddddddddddddddddddddddddd
-`</field><data>{"commentRefs":[],"fieldData":{"img":"Z;)(y1`#{bH,u=_hC)Kt"}}</data></shadow></value><next><block type="variables_set" id="E,5R7vP!nU4I)^u6wK0k"><field name="VAR" id="4!|VK~*/PS)yZ?3ITKD)">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="PBd?nSb.l7|%;1_uXhob"><value name="img"><shadow type="screen_image_picker" id="L)Et/r_#},zTl,.iy5QS"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Z;)(y1`#{bH,u=_hC)Kt"}}</data></shadow></value><next><block type="gameSplash" id="g{a.uG5F)M2H3H@lr2ZT"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="title"><shadow type="text" id="jGs6/ZNO0]+z(#Atx8NX"><field name="TEXT">Bug Collector</field></shadow></value><next><block type="game_dialog_set_frame" id="T$|#?^(3VxNW1W:3iybs"><value name="frame"><shadow type="dialog_image_picker" id="80v@5rf}G}4~N1wlVsJZ"><field name="img">img`
+.cccccccccccccccccccccc.
+ccd666666666666666666dcc
+cd6dbbbbbbbbbbbbbbbbd6dc
+c6dbbbbbbbbbbbbbbbbbbd6c
+c6bd1111111111111111db6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6b111111111111111111b6c
+c6bd1111111111111111db6c
+cd6bbbbbbbbbbbbbbbbbb6dc
+ccd666666666666666666dcc
+.cccccccccccccccccccccc.
+........................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"80v@5rf}G}4~N1wlVsJZ"}}</data></shadow></value><next><block type="game_show_long_text" id="v]4HpxzA=p9EgQAxv]1."><field name="layout">DialogLayout.Center</field><value name="str"><shadow type="text" id="DtY7k^)dOeLv%6p*5[lZ"><field name="TEXT">Help computer scientist Grace Hopper collect as many bugs as possible before time runs out!</field></shadow></value><next><block type="variables_set" id="E,5R7vP!nU4I)^u6wK0k"><field name="VAR" id="4!|VK~*/PS)yZ?3ITKD)">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="PBd?nSb.l7|%;1_uXhob"><value name="img"><shadow type="screen_image_picker" id="L)Et/r_#},zTl,.iy5QS"><field name="img">img`
 . . . . f b b b b b f . . . 
 . . . f c 1 1 1 1 1 b f . . 
 . . f c 1 1 8 5 8 1 1 b f . 
@@ -137,7 +162,7 @@ f e d f 8 c 8 8 8 8 8 b d f
 . f f c 8 8 8 8 8 c f f f . 
 . . . . f f f f f f . . . . 
 . . . f f f . . f f f . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"L)Et/r_#},zTl,.iy5QS"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="}5_d090=NTXwA.bVX@Ed"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="F@r2MvuA#*|T]g%#2$9w"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="TEpa[K@iY:FzII0r0G7s"><field name="VAR" id="4!|VK~*/PS)yZ?3ITKD)">mySprite</field></block></value><next><block type="spritesetsetstayinscreen" id=";=}}P#PII1!LQ.~9+xq+"><value name="sprite"><block type="variables_get" id="{}rosFIjFAwJwQFJ!ym@"><field name="VAR" id="4!|VK~*/PS)yZ?3ITKD)">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff" id="F7L9FqI{}tzv}rnd[{k;"><field name="on">true</field></shadow></value><next><block type="hudsetScore" id="{E6u5$YX3v9!KE=arpNQ"><value name="value"><shadow type="math_number" id="UZWV.TfM|pok`5YDQz-$"><field name="NUM">0</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="gameinterval" id="3FpLK7*P#|L9t!fMU85|" x="10" y="370"><value name="period"><shadow type="timePicker" id="|0NDMLZ.,RTdKTT1rj9Y"><field name="ms">500</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="h8kbrJYC{AKA%Rf/^Dw("><field name="VAR" id="ypm%~qbFd#ed.^#5:iU:">bugs</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="4a|/,`]Bx)R`PEuxz:[@"><value name="img"><shadow type="screen_image_picker" id="L-UyJ$QW|1Kv9{URQ|gO"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"L)Et/r_#},zTl,.iy5QS"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="}5_d090=NTXwA.bVX@Ed"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="F@r2MvuA#*|T]g%#2$9w"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="TEpa[K@iY:FzII0r0G7s"><field name="VAR" id="4!|VK~*/PS)yZ?3ITKD)">mySprite</field></block></value><next><block type="spritesetsetstayinscreen" id=";=}}P#PII1!LQ.~9+xq+"><value name="sprite"><block type="variables_get" id="{}rosFIjFAwJwQFJ!ym@"><field name="VAR" id="4!|VK~*/PS)yZ?3ITKD)">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff" id="F7L9FqI{}tzv}rnd[{k;"><field name="on">true</field></shadow></value><next><block type="hudsetScore" id="{E6u5$YX3v9!KE=arpNQ"><value name="value"><shadow type="math_number" id="UZWV.TfM|pok`5YDQz-$"><field name="NUM">0</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="gameinterval" id="3FpLK7*P#|L9t!fMU85|" x="530" y="370"><value name="period"><shadow type="timePicker" id="|0NDMLZ.,RTdKTT1rj9Y"><field name="ms">500</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="h8kbrJYC{AKA%Rf/^Dw("><field name="VAR" id="ypm%~qbFd#ed.^#5:iU:">bugs</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="4a|/,`]Bx)R`PEuxz:[@"><value name="img"><shadow type="screen_image_picker" id="L-UyJ$QW|1Kv9{URQ|gO"><field name="img">img`
 . . . . f . . . . . f . . . . 
 . . . . . f . . . f . . . . . 
 . . . . . f . . . f . . . . . 
